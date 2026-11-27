@@ -1,0 +1,202 @@
+[
+  {
+    "code": "MET-HEP-001",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Harrison Principios de Medicina Interna / Guías EASL-EASD-EASO MASLD 2024",
+    "keywords": ["higado graso", "esteatosis", "MASLD", "NAFLD", "fructosa", "bebidas azucaradas", "transaminasas"],
+    "clinicalRule": "ALT normal no descarta fibrosis: toda esteatosis con riesgo metabólico se estratifica; evitar bebidas azucaradas y jarabe de maíz alto en fructosa.",
+    "content": "La enfermedad hepática esteatósica asociada a disfunción metabólica (MASLD, antes NAFLD) se define por esteatosis en imagen o biopsia más al menos un criterio cardiometabólico (obesidad abdominal, prediabetes o diabetes tipo 2, hipertensión, triglicéridos elevados, HDL bajo), sin otra causa dominante. La fisiopatología central es la resistencia a la insulina: el exceso de lipólisis en tejido adiposo y la lipogénesis de novo hepática aumentan los triglicéridos intrahepáticos. La fructosa añadida y las bebidas azucaradas intensifican la lipogénesis porque la fructosa se metaboliza en el hígado sin el freno regulador de la fosfofructoquinasa, generando sustrato lipogénico, ácido úrico y estrés oxidativo. Las guías EASL-EASD-EASO recomiendan evitar bebidas azucaradas y alimentos procesados con jarabe de maíz alto en fructosa, lograr una pérdida de peso del 7 al 10 % para mejorar esteatohepatitis y fibrosis, adoptar patrón mediterráneo y practicar actividad física. La mayoría de los pacientes está asintomática y las transaminasas pueden ser normales incluso con fibrosis avanzada; por ello, una ALT normal nunca debe usarse para descartar enfermedad hepática."
+  },
+  {
+    "code": "MET-HEP-002",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Krause Food & the Nutrition Care Process / Guías EASL-EASD-EASO MASLD 2024",
+    "keywords": ["fructosa", "jugo de naranja", "fruta entera", "esteatosis", "dieta mediterranea", "bebidas azucaradas"],
+    "clinicalRule": "Restringir jugos, refrescos y azúcares libres; la fruta entera en porciones habituales no se prohíbe de forma automática.",
+    "content": "La restricción de fructosa en esteatosis hepática debe individualizarse. Los jugos de fruta (incluido el jugo de naranja natural), refrescos, néctares, miel y jarabes aportan fructosa libre en dosis rápidas y sin fibra que module la absorción, y se asocian con mayor grasa hepática. La fruta entera aporta fibra, agua y polifenoles, genera saciedad y no ha demostrado empeorar la esteatosis en cantidades habituales; el patrón mediterráneo, que la incluye, es la dieta con mejor evidencia en MASLD. Recomendación práctica: sustituir los jugos por fruta entera; en pacientes con triglicéridos altos o diabetes, limitar a una o dos porciones diarias las frutas muy densas en azúcar o deshidratadas (mango muy maduro, uvas, banano muy maduro, dátiles, pasas) y priorizar bayas, manzana, cítricos enteros y kiwi. Evitar prohibir la fruta entera sin fundamento, porque reduce la adherencia y el aporte de fibra. Registrar siempre el consumo de bebidas azucaradas, jugos y alcohol como dato clave de la anamnesis nutricional del paciente con hígado graso."
+  },
+  {
+    "code": "MET-HEP-003",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Harrison Principios de Medicina Interna / Guías EASL-EASD-EASO MASLD 2024 / AASLD 2023",
+    "keywords": ["FIB-4", "fibrosis hepatica", "elastografia", "FibroScan", "cirrosis", "esteatosis", "plaquetas"],
+    "clinicalRule": "Calcular FIB-4 en todo paciente con esteatosis y riesgo metabólico; si es indeterminado o alto, elastografía y derivación.",
+    "content": "Todo paciente con esteatosis y factores de riesgo metabólico (diabetes tipo 2, obesidad, dos o más criterios de síndrome metabólico) debe estratificarse para fibrosis avanzada, principal determinante del pronóstico. Primer paso: FIB-4 = edad × AST / (plaquetas en 10^9/L × raíz cuadrada de ALT). Un valor menor de 1,3 (menor de 2,0 si la edad es 65 años o más) indica bajo riesgo y reevaluación en 1 a 3 años; entre 1,3 y 2,67 requiere una prueba de segunda línea, como elastografía transitoria o ELF; mayor de 2,67 indica alto riesgo y derivación a hepatología. Una rigidez hepática menor de 8 kPa descarta con buena fiabilidad la fibrosis avanzada y 12 kPa o más la hace probable. Plaquetas bajas, albúmina baja, INR prolongado o bilirrubina elevada sugieren cirrosis: buscar várices, ascitis y encefalopatía, y programar vigilancia de carcinoma hepatocelular con ecografía cada 6 meses. Error a prevenir: atribuir cualquier elevación leve de transaminasas a un hígado graso benigno sin estimar el grado de fibrosis."
+  },
+  {
+    "code": "MET-HEP-004",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Goodman & Gilman Bases Farmacológicas de la Terapéutica / Guías EASL DILI 2019",
+    "keywords": ["hepatotoxicidad", "paracetamol", "amiodarona", "metotrexato", "valproato", "suplementos", "DILI", "higado graso"],
+    "clinicalRule": "En hepatopatía o alcohol, paracetamol máximo 2 g/día; revisar fármacos, hierbas y suplementos antes de cada recomendación.",
+    "content": "En pacientes con hígado graso o hepatopatía crónica se revisa la lista completa de fármacos antes de recomendar cualquier tratamiento. Paracetamol: la dosis habitual llega a 4 g/día en personas sanas, pero en hepatopatía crónica, consumo de alcohol o ayuno prolongado se limita a 2 g/día, porque la depleción de glutatión aumenta el riesgo de lesión por el metabolito NAPQI. Fármacos con hepatotoxicidad relevante: amiodarona, metotrexato, valproato, isoniazida, ketoconazol, amoxicilina-clavulánico, nitrofurantoína, azatioprina, leflunomida y algunos antirretrovirales. Los suplementos herbales y de culturismo (kava, té verde concentrado, cúrcuma en dosis altas, esteroides anabólicos) son una causa creciente de lesión hepática inducida por fármacos. Las estatinas no están contraindicadas en esteatosis, y una elevación de ALT menor de 3 veces el límite superior normal no obliga a suspenderlas. Interrogar alcohol, hierbas y suplementos en cada receta; ante ALT de 5 veces el límite superior normal o más, o de 3 veces con ictericia, suspender el agente sospechoso y derivar."
+  },
+  {
+    "code": "MET-HEP-005",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Harrison Principios de Medicina Interna / Guías EASL DILI 2019",
+    "keywords": ["lesion hepatica inducida por farmacos", "ley de Hy", "ictericia", "cociente R", "transaminasas", "INR"],
+    "clinicalRule": "ALT > 3 x LSN con bilirrubina > 2 x LSN tras un fármaco: suspender, evaluar INR y derivar de forma urgente.",
+    "content": "Ante una elevación de transaminasas en un paciente con fármacos recientes, se calcula el cociente R = (ALT/LSN) / (fosfatasa alcalina/LSN). Un valor de 5 o más indica patrón hepatocelular, 2 o menos colestásico y entre 2 y 5 mixto. Criterio de gravedad (ley de Hy): ALT mayor de 3 veces el límite superior normal con bilirrubina mayor de 2 veces, sin obstrucción biliar ni otra causa, se asocia con una mortalidad cercana al 10 % y exige suspender el fármaco, medir INR y albúmina y valorar el estado mental. El diagnóstico es de exclusión: descartar hepatitis virales (A, B, C, E), hepatitis autoinmune, isquemia hepática, obstrucción biliar y alcohol. Banderas rojas: ictericia, coluria, acolia, prurito intenso, dolor en hipocondrio derecho, encefalopatía e INR mayor de 1,5. La mejoría tras suspender el fármaco apoya el diagnóstico. No reexponer a un agente que produjo ictericia. En consumo crónico de alcohol, una relación AST/ALT mayor de 2 y una GGT elevada sugieren etiología alcohólica."
+  },
+  {
+    "code": "MET-HEP-006",
+    "category": "HEPATOLOGIA_METABOLISMO",
+    "bookSource": "Guías EASL-EASD-EASO MASLD 2024 / Harrison Principios de Medicina Interna",
+    "keywords": ["alcohol", "MetALD", "esteatosis", "abstinencia", "cirrosis", "AST/ALT"],
+    "clinicalRule": "Cuantificar el alcohol en todo paciente con hígado graso; en fibrosis avanzada se recomienda abstinencia.",
+    "content": "El alcohol actúa como cofactor de progresión en la esteatosis metabólica. La nomenclatura actual distingue MASLD (consumo bajo), MetALD (consumo de 140 a 350 g/semana en mujeres y de 210 a 420 g/semana en hombres, con esteatosis y criterios cardiometabólicos) y enfermedad hepática alcohólica (consumo mayor). Un trago estándar contiene unos 10 a 14 g de alcohol, por lo que debe cuantificarse en gramos semanales, no con la expresión de consumo social. Las guías recomiendan minimizar el alcohol en MASLD y abstinencia total en fibrosis avanzada o cirrosis. El alcohol potencia además la hepatotoxicidad del paracetamol, aumenta los triglicéridos, eleva la presión arterial y puede precipitar pancreatitis cuando los triglicéridos son muy altos. Interacciones relevantes: metronidazol y algunas cefalosporinas pueden producir reacción tipo disulfiram; sedantes y opioides suman depresión respiratoria; la combinación con metformina y deshidratación incrementa el riesgo de acidosis láctica. Aplicar cuestionarios validados (AUDIT-C) y evaluar síntomas de abstinencia antes de indicar suspensión brusca en consumo crónico alto."
+  },
+  {
+    "code": "MET-ELE-001",
+    "category": "ELECTROLITOS_HIDRATACION",
+    "bookSource": "Guyton y Hall Tratado de Fisiología Médica / Harrison Principios de Medicina Interna",
+    "keywords": ["cetogenica", "low carb", "natriuresis", "insulina", "deshidratacion", "gripe cetogenica", "sodio"],
+    "clinicalRule": "Toda dieta cetogénica o muy baja en carbohidratos produce pérdida de sodio y agua: planificar reposición desde el inicio.",
+    "content": "Las dietas bajas en carbohidratos (menos de 50 g/día) y cetogénicas reducen la insulinemia en pocos días. La insulina estimula la reabsorción de sodio en el túbulo distal y colector; al descender, aparece natriuresis y una diuresis de adaptación durante la primera semana. A ello se suma la depleción de glucógeno (cada gramo se almacena con cerca de 3 g de agua), con pérdida rápida de 1 a 3 kg de líquido. La excreción urinaria de cetoanión arrastra cationes, y la restricción de alimentos procesados reduce el aporte de sal. Consecuencias: contracción de volumen, cefalea, fatiga, mareo, calambres, estreñimiento, palpitaciones y, en casos más marcados, hipotensión ortostática, hiponatremia leve, hipopotasemia e hipomagnesemia; es la causa más frecuente de la llamada gripe cetogénica. Preguntar siempre qué hace el paciente con la sal y los líquidos y buscar fármacos que aumenten la pérdida de volumen. Nota de fuente: la fisiología renal proviene de textos de referencia; las pautas prácticas provienen de consensos de expertos, sin guía formal de sociedades mayores."
+  },
+  {
+    "code": "MET-ELE-002",
+    "category": "ELECTROLITOS_HIDRATACION",
+    "bookSource": "Krause Food & the Nutrition Care Process / Consenso de expertos en dietas bajas en carbohidratos",
+    "keywords": ["reposicion", "sodio", "potasio", "magnesio", "hidratacion", "cetogenica", "calambres", "caldo"],
+    "clinicalRule": "Reposición orientativa en las primeras 2-4 semanas: sodio 3-5 g/día, potasio desde alimentos, magnesio 300-400 mg; contraindicada o ajustada en ERC e insuficiencia cardiaca.",
+    "content": "El consenso de expertos propone, durante las primeras 2 a 4 semanas y en personas sin enfermedad renal ni cardiaca: sodio 3 a 5 g/día (equivalente a 7,5 a 12,5 g de sal), potasio 1 a 3 g/día preferentemente desde alimentos (aguacate, espinaca, frutos secos, pescado) y magnesio 300 a 400 mg/día como citrato o glicinato si hay calambres o insomnio. La hidratación se orienta a una orina de color amarillo pálido, habitualmente 2 a 3 litros diarios, y el caldo salado es una vía práctica. Se contraindica o individualiza en insuficiencia cardiaca, enfermedad renal crónica (riesgo de hiperpotasemia e hipermagnesemia), cirrosis con ascitis, hipertensión resistente y uso de IECA, ARA II, espironolactona o suplementos de potasio. Se recomienda medir sodio, potasio, magnesio y creatinina al inicio y a las 2 a 4 semanas. Suspender el protocolo y evaluar ante síncope, vómito persistente, confusión o calambres intensos. Las cifras provienen de consenso y no de ensayos aleatorizados; auditar siempre frente a las comorbilidades del paciente."
+  },
+  {
+    "code": "MET-ELE-003",
+    "category": "ELECTROLITOS_HIDRATACION",
+    "bookSource": "Harrison Principios de Medicina Interna / Goodman & Gilman Bases Farmacológicas de la Terapéutica",
+    "keywords": ["hipotension ortostatica", "diureticos", "IECA", "ARA II", "SGLT2", "hipoglucemia", "cetogenica", "AKI"],
+    "clinicalRule": "Medir presión sentado y de pie al iniciar dieta baja en carbohidratos; anticipar ajuste de diuréticos, antihipertensivos, insulina y sulfonilureas.",
+    "content": "Hipotensión ortostática: descenso de 20 mmHg o más de presión sistólica, o de 10 mmHg o más de tólica, dentro de los 3 minutos de bipedestación. En un paciente que inicia dieta cetogénica o ayuno, la pérdida de sodio y volumen potencia los antihipertensivos: diuréticos tiazídicos y de asa, IECA, ARA II, bloqueadores alfa, nitratos, inhibidores de fosfodiesterasa 5 y antidepresivos tricíclicos. Los inhibidores de SGLT2 añaden diuresis osmótica y natriuresis. El resultado puede ser mareo, caídas, síncope, lesión renal aguda y, en adultos mayores, fracturas. Medir la presión sentado y de pie al inicio y en las semanas 1 y 2; valorar con el médico tratante la reducción o suspensión de diuréticos y la reevaluación de dosis antihipertensivas, nunca de forma autónoma por el paciente. Sulfonilureas e insulina requieren reducción anticipada de dosis al bajar los carbohidratos para evitar hipoglucemia. La combinación de AINE, IECA o ARA II y diurético (triple whammy) eleva el riesgo de lesión renal aguda durante la deshidratación."
+  },
+  {
+    "code": "MET-ELE-004",
+    "category": "ELECTROLITOS_HIDRATACION",
+    "bookSource": "ADA Standards of Care in Diabetes / Williams Textbook of Endocrinology / Harrison Principios de Medicina Interna",
+    "keywords": ["cetoacidosis euglucemica", "SGLT2", "cetonas", "beta-hidroxibutirato", "diabetes tipo 1", "Kussmaul", "cetogenica"],
+    "clinicalRule": "Náusea, dolor abdominal o respiración profunda con SGLT2 o dieta cetogénica: medir cetonas aunque la glucosa sea normal.",
+    "content": "Las dietas muy bajas en carbohidratos y el ayuno no suelen producir cetoacidosis en un metabolismo sano, porque la insulina residual frena la cetogénesis; sí pueden precipitarla en diabetes tipo 1, LADA, diabetes tipo 2 con deficiencia de insulina, embarazo, lactancia y tratamiento con inhibidores de SGLT2 (empagliflozina, dapagliflozina, canagliflozina). La cetoacidosis euglucémica cursa con glucemia menor de 250 mg/dL, pH menor de 7,3, bicarbonato menor de 18 mEq/L, brecha aniónica elevada y beta-hidroxibutirato mayor de 3 mmol/L. Síntomas: náusea, vómito, dolor abdominal, respiración profunda (Kussmaul), fatiga y confusión. Es una urgencia y no debe descartarse por una glucosa normal. Los inhibidores de SGLT2 se suspenden 3 días antes de cirugía o ayuno programado (4 días para ertugliflozina). Otros desencadenantes: alcohol, enfermedad aguda, ejercicio extremo y reducción brusca de insulina. Antes de aprobar una dieta cetogénica en una persona con diabetes, preguntar el tipo de diabetes y los fármacos; se vigila la cetonemia, no solo la glucemia."
+  },
+  {
+    "code": "MET-ELE-005",
+    "category": "ELECTROLITOS_HIDRATACION",
+    "bookSource": "Harrison Principios de Medicina Interna / Krause Food & the Nutrition Care Process / Guyton y Hall",
+    "keywords": ["hiponatremia", "hipopotasemia", "hiperpotasemia", "hipomagnesemia", "deshidratacion", "ECG", "tiazidas"],
+    "clinicalRule": "Sodio < 125 con síntomas, potasio < 3 o > 6, síncope, convulsión o arritmia: derivar a urgencias.",
+    "content": "Evaluación del volumen: sed, mucosas secas, orina oscura, taquicardia, hipotensión ortostática y pérdida aguda de peso mayor del 2 %; la turgencia cutánea es poco fiable en ancianos. Una relación BUN/creatinina mayor de 20 sugiere hipovolemia prerrenal. Hiponatremia (sodio menor de 135 mEq/L): frecuente en quien bebe mucha agua con poca sal o usa tiazidas; la corrección de una hiponatremia crónica no debe superar 8 a 10 mEq/L en 24 horas por el riesgo de desmielinización osmótica. Hipopotasemia (menor de 3,5 mEq/L): debilidad, calambres, arritmias y ondas U en el ECG. Hiperpotasemia (mayor de 5,5 mEq/L): riesgo en enfermedad renal crónica y con IECA, ARA II o espironolactona; cambios ECG obligan a atención inmediata. Hipomagnesemia: causa de hipopotasemia refractaria y QT prolongado, más frecuente con diuréticos e inhibidores de bomba de protones crónicos. Banderas rojas: sodio menor de 125 mEq/L con síntomas neurológicos, potasio menor de 3 o mayor de 6 mEq/L, síncope, convulsión, arritmia u oliguria."
+  },
+  {
+    "code": "MET-LIP-001",
+    "category": "DISLIPIDEMIA",
+    "bookSource": "Guías ESC/EAS 2019 Dislipidemias / ACC/AHA 2018 Colesterol / Harrison Principios de Medicina Interna",
+    "keywords": ["LDL", "estatinas", "ezetimiba", "PCSK9", "hipercolesterolemia familiar", "lipoproteina(a)", "riesgo cardiovascular"],
+    "clinicalRule": "Descartar causas secundarias antes de rotular dislipidemia primaria; LDL ≥ 190 mg/dL sugiere hipercolesterolemia familiar.",
+    "content": "El LDL-C es el objetivo primario en la reducción del riesgo aterosclerótico. La guía ESC/EAS 2019 fija metas según el riesgo: muy alto, menos de 55 mg/dL y reducción de al menos 50 %; alto, menos de 70 mg/dL; moderado, menos de 100 mg/dL; bajo, menos de 116 mg/dL. La guía ACC/AHA 2018 prioriza la intensidad de la estatina: alta intensidad (atorvastatina 40 a 80 mg, rosuvastatina 20 a 40 mg) reduce el LDL 50 % o más; moderada, 30 a 49 %. La ezetimiba añade 18 a 25 % y los inhibidores de PCSK9 cerca de 50 a 60 %. Un LDL de 190 mg/dL o más, sin causa secundaria, sugiere hipercolesterolemia familiar: tratamiento intensivo y tamizaje en cascada de los familiares. Antes de rotular una dislipidemia primaria, descartar hipotiroidismo, síndrome nefrótico, colestasis, diabetes descontrolada, embarazo y fármacos (corticoides, ciclosporina, retinoides). Medir Lp(a) al menos una vez en la vida. Nutrición: reducir grasa saturada y trans, aumentar fibra soluble y esteroles vegetales; una dieta cetogénica puede elevar el LDL en algunas personas, por lo que se controla el perfil lipídico a las 4 a 12 semanas."
+  },
+  {
+    "code": "MET-LIP-002",
+    "category": "DISLIPIDEMIA",
+    "bookSource": "Harrison Principios de Medicina Interna / Williams Textbook of Endocrinology / ADA Standards of Care",
+    "keywords": ["hipertrigliceridemia", "pancreatitis", "fibratos", "icosapento", "omega 3", "trigliceridos", "alcohol"],
+    "clinicalRule": "Triglicéridos ≥ 500 mg/dL: riesgo de pancreatitis; suprimir alcohol y azúcares libres, tratar la causa e iniciar fibrato.",
+    "content": "Clasificación de triglicéridos: normal, menos de 150 mg/dL; leve, 150 a 199; moderada, 200 a 499; severa, 500 a 999; muy severa, 1000 o más. Con 500 mg/dL o más aumenta el riesgo de pancreatitis aguda, y el objetivo inmediato es descender por debajo de 500: dieta temporal muy baja en grasa, eliminación de alcohol y azúcares libres, control glucémico y fibrato. Causas secundarias: diabetes descontrolada, hipotiroidismo, obesidad, alcohol, enfermedad renal, estrógenos orales, tamoxifeno, isotretinoína, inhibidores de proteasa, propofol y corticoides. Con triglicéridos de 150 a 499 mg/dL la prioridad es reducir el riesgo cardiovascular: estatina y, en enfermedad aterosclerótica o diabetes con factores de riesgo y triglicéridos de 135 a 499 mg/dL pese a estatina, icosapento de etilo 2 g dos veces al día (estudio REDUCE-IT). El fenofibrato es preferible al gemfibrozilo cuando se asocia a estatinas. Una muestra posterior a alcohol o comida grasa puede sobrestimar el valor. Bandera roja: dolor epigástrico irradiado a la espalda con triglicéridos elevados sugiere pancreatitis."
+  },
+  {
+    "code": "MET-LIP-003",
+    "category": "DISLIPIDEMIA",
+    "bookSource": "Williams Textbook of Endocrinology / Harrison Principios de Medicina Interna / Consenso armonizado de síndrome metabólico",
+    "keywords": ["HDL bajo", "sindrome metabolico", "resistencia a la insulina", "HOMA-IR", "perimetro abdominal", "trigliceridos"],
+    "clinicalRule": "HDL bajo con triglicéridos altos orienta a resistencia a la insulina: buscar esteatosis, prediabetes y tratar la causa, no el HDL.",
+    "content": "Un HDL menor de 40 mg/dL en hombres y menor de 50 mg/dL en mujeres es criterio de síndrome metabólico y marcador de resistencia a la insulina, a menudo acompañado de triglicéridos elevados y partículas LDL pequeñas y densas. Criterios armonizados (3 de 5): perímetro abdominal elevado (en Latinoamérica, 90 cm o más en hombres y 80 cm o más en mujeres según la IDF), triglicéridos de 150 mg/dL o más, HDL bajo, presión de 130/85 mmHg o más o tratamiento antihipertensivo, y glucemia en ayunas de 100 mg/dL o más o tratamiento. La resistencia a la insulina se estima con HOMA-IR = (glucosa en mg/dL × insulina en µU/mL) / 405; valores mayores de 2,5 son sugestivos, con puntos de corte que dependen de la población y del ensayo. Elevar el HDL con fármacos (niacina, inhibidores de CETP) no redujo eventos cardiovasculares, por lo que el objetivo es tratar la causa: pérdida de peso, ejercicio aeróbico, abandono del tabaco, reducción de carbohidratos refinados y control de triglicéridos y LDL. Un HDL muy alto no es necesariamente protector. Ante HDL bajo, evaluar esteatosis hepática y prediabetes."
+  },
+  {
+    "code": "MET-LIP-004",
+    "category": "DISLIPIDEMIA",
+    "bookSource": "Goodman & Gilman Bases Farmacológicas de la Terapéutica / ACC/AHA 2018 Colesterol",
+    "keywords": ["estatinas", "interacciones", "simvastatina", "pomelo", "claritromicina", "gemfibrozilo", "rabdomiolisis", "CK"],
+    "clinicalRule": "Simvastatina con claritromicina o gemfibrozilo: evitar; con amlodipino máximo 20 mg; con diltiazem o verapamilo máximo 10 mg.",
+    "content": "Las estatinas metabolizadas por CYP3A4 (simvastatina, lovastatina y, en menor grado, atorvastatina) aumentan sus niveles con macrólidos (claritromicina, eritromicina), azoles (ketoconazol, itraconazol), inhibidores de proteasa, ciclosporina, diltiazem, verapamilo y consumo abundante de jugo de pomelo, con mayor riesgo de miopatía y rabdomiólisis. Límites de dosis: simvastatina máximo 10 mg con diltiazem o verapamilo y 20 mg con amlodipino; evitar con claritromicina. El gemfibrozilo inhibe la glucuronidación y eleva los niveles de estatinas: evitar la combinación. Rosuvastatina, pravastatina y pitavastatina presentan menos interacciones; en ancestría asiática se inicia rosuvastatina con 5 mg. Factores de riesgo de miopatía: edad mayor de 75 años, insuficiencia renal, hipotiroidismo, bajo peso, alcohol y ejercicio extenuante. Ante mialgia con debilidad, orina oscura o CK mayor de 10 veces el límite superior normal, suspender y medir creatinina. La deshidratación asociada a una dieta cetogénica puede agravar una rabdomiólisis y precipitar lesión renal. Las estatinas son seguras en hígado graso compensado; evitarlas en hepatopatía descompensada."
+  },
+  {
+    "code": "EPI-RSK-001",
+    "category": "EPIDEMIOLOGIA_RIESGO",
+    "bookSource": "Harrison Principios de Medicina Interna / Williams Textbook of Endocrinology / Guías EASL-EASD-EASO MASLD 2024",
+    "keywords": ["epidemiologia", "latinoamerica", "PNPLA3", "sexo", "menopausia", "riesgo cardiovascular", "ancestria asiatica", "preeclampsia"],
+    "clinicalRule": "Ajustar el riesgo al perfil: ancestría, sexo, menopausia y antecedentes obstétricos; verificar la validación de la calculadora de riesgo.",
+    "content": "El riesgo cardiometabólico varía con el perfil del paciente. En población hispana y latinoamericana la prevalencia de MASLD es de las más altas entre grupos étnicos, con carga genética (variante PNPLA3 I148M) y diabetes tipo 2 de aparición más temprana a menor índice de masa corporal; se recomiendan puntos de corte de cintura específicos. En ancestría asiática y sur asiática hay resistencia a la insulina y grasa visceral con IMC bajo, y el sobrepeso se define desde 23 kg/m². Sexo: las mujeres premenopáusicas tienen menor riesgo coronario; tras la menopausia aumentan el LDL y la grasa visceral y el riesgo converge con el del hombre. Preeclampsia, diabetes gestacional, parto prematuro y síndrome de ovario poliquístico son potenciadores de riesgo. En hombres el infarto se presenta en promedio una década antes. En mujeres, diabéticos y ancianos los síntomas isquémicos suelen ser atípicos. Antecedente familiar de enfermedad coronaria prematura (hombres menores de 55 años, mujeres menores de 65) y tabaquismo suman riesgo. Verificar siempre que la calculadora de riesgo esté validada para la población del paciente."
+  },
+  {
+    "code": "EPI-RSK-002",
+    "category": "EPIDEMIOLOGIA_RIESGO",
+    "bookSource": "ADA Standards of Care in Diabetes / Williams Textbook of Endocrinology",
+    "keywords": ["prediabetes", "diabetes", "HbA1c", "glucemia en ayunas", "PTOG", "acantosis nigricans", "resistencia a la insulina", "tamizaje"],
+    "clinicalRule": "Confirmar diagnóstico con segunda prueba; HbA1c poco fiable en anemia, hemoglobinopatías, embarazo y hemodiálisis.",
+    "content": "Criterios ADA: prediabetes con glucosa en ayunas de 100 a 125 mg/dL, glucosa a las 2 horas de la PTOG de 140 a 199 mg/dL o HbA1c de 5,7 a 6,4 %. Diabetes con glucosa en ayunas de 126 mg/dL o más, glucosa a las 2 horas de 200 mg/dL o más, HbA1c de 6,5 % o más, o glucosa aleatoria de 200 mg/dL o más con síntomas; se confirma con una segunda prueba salvo hiperglucemia inequívoca. La HbA1c es poco fiable en anemia, hemoglobinopatías, hemodiálisis, embarazo y transfusión reciente. Tamizaje: adultos desde los 35 años y antes si hay IMC de 25 kg/m² o más (23 en ancestría asiática) con algún factor de riesgo. La progresión es más probable con HbA1c de 6,0 a 6,4 %. Intervención: pérdida de peso del 5 al 7 %, 150 minutos semanales de actividad física y metformina en alto riesgo. Signos de resistencia a la insulina: acantosis nigricans, acrocordones, perímetro abdominal aumentado, hígado graso y síndrome de ovario poliquístico. Una dieta baja en carbohidratos puede normalizar la glucosa y modificar la interpretación de las pruebas; interpretar con el contexto."
+  },
+  {
+    "code": "URG-CAR-001",
+    "category": "URGENCIAS_BANDERAS_ROJAS",
+    "bookSource": "Guía AHA/ACC 2021 Dolor Torácico / Harrison Principios de Medicina Interna / Argente Semiología Médica",
+    "keywords": ["dolor toracico", "sindrome coronario agudo", "disección aortica", "embolia pulmonar", "troponina", "ECG", "nitroglicerina", "aspirina"],
+    "clinicalRule": "Dolor torácico agudo: ECG en < 10 min y troponina de alta sensibilidad; no manejar por teleconsulta si hay banderas rojas.",
+    "content": "Todo dolor torácico agudo requiere un ECG de 12 derivaciones en menos de 10 minutos y troponina de alta sensibilidad según protocolo 0/1 h o 0/2 h (guía AHA/ACC 2021). Banderas rojas de síndrome coronario agudo: opresión retroesternal de más de 10 a 20 minutos, irradiación a brazo, mandíbula o espalda, diaforesis, disnea, náusea y síncope; en mujeres, diabéticos y ancianos pueden predominar fatiga, disnea o dolor epigástrico. Otras causas que amenazan la vida: disección aórtica (dolor desgarrante súbito, diferencia de presión entre brazos mayor de 20 mmHg, déficit de pulsos), embolia pulmonar (dolor pleurítico, taquicardia, hipoxemia, trombosis venosa, cirugía o inmovilización), neumotórax a tensión, rotura esofágica tras vómito y taponamiento cardiaco. La respuesta a nitroglicerina o antiácidos no discrimina la etiología. Antes de recomendar aspirina o nitratos, verificar alergia a AINE o aspirina, sospecha de disección, sangrado activo, uso de sildenafil (24 horas) o tadalafil (48 horas), hipotensión y sospecha de infarto de ventrículo derecho. Ante sospecha, derivar a urgencias."
+  },
+  {
+    "code": "URG-RES-001",
+    "category": "URGENCIAS_BANDERAS_ROJAS",
+    "bookSource": "Harrison Principios de Medicina Interna / Argente Semiología Médica / Bates Guía de Exploración Física",
+    "keywords": ["disnea", "hipoxemia", "saturacion", "anafilaxia", "Kussmaul", "acidosis metabolica", "embolia pulmonar", "edema agudo de pulmon"],
+    "clinicalRule": "Disnea de reposo de inicio agudo, SpO2 < 92 % o incapacidad para hablar frases completas: urgencias inmediatas.",
+    "content": "Banderas rojas de disnea: incapacidad para hablar frases completas, frecuencia respiratoria mayor de 24 a 30 por minuto, SpO2 menor de 92 % en aire ambiente, uso de músculos accesorios, estridor, cianosis, alteración del estado mental, tórax silente, hemoptisis, dolor torácico asociado y síncope. Diagnósticos críticos: embolia pulmonar, edema agudo de pulmón e insuficiencia cardiaca, síndrome coronario agudo, neumotórax, neumonía, crisis asmática o exacerbación de EPOC, anafilaxia (urticaria, angioedema o sibilancias tras un fármaco o alimento) y taponamiento. En el contexto metabólico, una respiración profunda y rápida (Kussmaul) con náusea y dolor abdominal sugiere acidosis metabólica, en especial cetoacidosis (incluida la euglucémica con inhibidores de SGLT2) o sepsis. La anemia grave y la hipopotasemia severa pueden causar disnea o debilidad respiratoria. Toda disnea de reposo de inicio agudo se deriva a urgencias; no se espera a que la saturación baje para actuar. En anafilaxia, la adrenalina intramuscular es el tratamiento de primera línea."
+  },
+  {
+    "code": "URG-NEU-001",
+    "category": "URGENCIAS_BANDERAS_ROJAS",
+    "bookSource": "Harrison Principios de Medicina Interna / Guía IDSA Meningitis Bacteriana / Bates Guía de Exploración Física",
+    "keywords": ["cefalea", "rigidez de nuca", "meningitis", "fiebre", "petequias", "hemorragia subaracnoidea", "cefalea en trueno", "arteritis de celulas gigantes"],
+    "clinicalRule": "Cefalea con fiebre y rigidez de nuca: meningitis hasta demostrar lo contrario; no retrasar antibiótico por estudios de imagen.",
+    "content": "Cefalea con fiebre y rigidez de nuca equivale a meningitis bacteriana hasta demostrar lo contrario. La tríada clásica (fiebre, rigidez de nuca y alteración del estado mental) está completa en menos de la mitad de los casos, pero casi todos presentan al menos dos de cuatro elementos incluyendo la cefalea. Los signos de Kernig y Brudzinski tienen baja sensibilidad y su ausencia no excluye el diagnóstico. Banderas rojas adicionales: exantema petequial o purpúrico (meningococemia), fotofobia, convulsión, déficit focal, papiledema, inmunosupresión, edad mayor de 50 años y lactantes. Manejo: urgencia inmediata, hemocultivos y antibiótico empírico sin retraso por imágenes, dexametasona con la primera dosis según la guía IDSA; punción lumbar tras valorar riesgo de herniación (déficit focal, papiledema, convulsión, inmunosupresión, alteración de conciencia). Una cefalea en trueno (máxima en menos de un minuto) sugiere hemorragia subaracnoidea: TC en las primeras 6 horas y punción lumbar si es negativa y persiste la sospecha. Otras banderas: cefalea nueva progresiva después de los 50 años (arteritis de células gigantes: VSG y PCR), embarazo o posparto, anticoagulación y traumatismo."
+  },
+  {
+    "code": "URG-INF-001",
+    "category": "URGENCIAS_BANDERAS_ROJAS",
+    "bookSource": "Harrison Principios de Medicina Interna / Surviving Sepsis Campaign 2021 / Farreras-Rozman Medicina Interna",
+    "keywords": ["fiebre alta", "sepsis", "qSOFA", "neutropenia febril", "dengue", "endocarditis", "colangitis", "paracetamol"],
+    "clinicalRule": "Fiebre > 38,5 °C con qSOFA ≥ 2, petequias, inmunosupresión o neutropenia: urgencia; en dengue evitar AINE y aspirina.",
+    "content": "La fiebre mayor de 38,5 °C requiere buscar el foco y evaluar signos de gravedad. Aplicar qSOFA: frecuencia respiratoria de 22 o más, alteración del estado mental y presión sistólica de 100 mmHg o menos; dos o más puntos sugieren sepsis y exigen manejo urgente (hemocultivos, lactato, antibiótico y fluidos en la primera hora). Otras banderas rojas: rigidez de nuca, exantema petequial, dolor abdominal intenso, disuria con dolor lumbar, inmunosupresión, neutropenia (fiebre de 38,3 °C o más, o de 38 °C sostenida durante una hora, con neutrófilos menores de 500/µL), esplenectomía, posoperatorio, quimioterapia, VIH, soplo nuevo (endocarditis) y viaje a zonas endémicas (malaria, dengue). En dengue, el dolor abdominal, el vómito persistente, el sangrado de mucosas, el letargo y el hematocrito en ascenso son signos de alarma; usar paracetamol y evitar AINE y aspirina por riesgo hemorrágico. Los ancianos pueden no presentar fiebre. Fiebre con ictericia y dolor en hipocondrio derecho sugiere colangitis. Una temperatura mayor de 41 °C es una emergencia."
+  },
+  {
+    "code": "URG-ABD-001",
+    "category": "URGENCIAS_BANDERAS_ROJAS",
+    "bookSource": "Argente Semiología Médica / Harrison Principios de Medicina Interna / Farreras-Rozman Medicina Interna",
+    "keywords": ["abdomen agudo", "peritonitis", "defensa abdominal", "rebote", "embarazo ectopico", "aneurisma aortico", "isquemia mesenterica", "pancreatitis"],
+    "clinicalRule": "Dolor abdominal con rigidez, rebote, hipotensión o dolor desproporcionado: urgencia quirúrgica; en mujer fértil, beta-hCG obligatoria.",
+    "content": "Abdomen agudo: dolor abdominal de inicio reciente que puede requerir cirugía. Banderas rojas: rigidez o defensa abdominal involuntaria, signo de rebote, dolor que precede al vómito, distensión con ausencia de ventosidad, hipotensión, taquicardia, fiebre, sangrado digestivo, ictericia y dolor desproporcionado respecto al examen (isquemia mesentérica). Diagnósticos a excluir: apendicitis, colecistitis y colangitis, pancreatitis (investigar triglicéridos y alcohol), obstrucción intestinal, perforación, diverticulitis, aneurisma aórtico roto (mayores de 60 años con dolor abdominal o lumbar y shock), embarazo ectópico (mujer en edad fértil: beta-hCG obligatoria), torsión testicular, cetoacidosis diabética y causas torácicas (infarto inferior, neumonía basal). Ancianos, diabéticos e inmunosuprimidos presentan signos atenuados. El examen físico seriado es más útil que una sola evaluación, y la analgesia no debe retrasar el estudio. Evitar AINE si se sospecha sangrado o lesión renal. Dolor abdominal con náusea y respiración rápida en un paciente con SGLT2i o dieta cetogénica obliga a medir cetonas."
+  },
+  {
+    "code": "FAR-ALE-001",
+    "category": "FARMACOLOGIA_ALERGIAS",
+    "bookSource": "Goodman & Gilman Bases Farmacológicas de la Terapéutica / Harrison Principios de Medicina Interna",
+    "keywords": ["alergia a AINE", "aspirina", "ibuprofeno", "metamizol", "dipirona", "celecoxib", "hipersensibilidad cruzada", "triple whammy"],
+    "clinicalRule": "Alergia a un AINE: determinar si es cruzada (COX-1) o selectiva; el metamizol puede reaccionar de forma cruzada y causar agranulocitosis.",
+    "content": "Antes de indicar un AINE, hacer cross-check de alergia: se distinguen reacciones cruzadas (por inhibición de COX-1, con urticaria, angioedema o enfermedad respiratoria exacerbada por AINE con asma y pólipos nasales; reaccionan aspirina, ibuprofeno, naproxeno, diclofenaco y ketorolaco) y reacciones selectivas a un solo fármaco. En hipersensibilidad cruzada se evitan todos los inhibidores de COX-1; el paracetamol en dosis de hasta 500 mg suele tolerarse y los inhibidores selectivos de COX-2 (celecoxib, etoricoxib) pueden usarse bajo supervisión alergológica. El metamizol (dipirona), de uso frecuente en Latinoamérica, puede reaccionar de forma cruzada y además causa agranulocitosis. Contraindicaciones no alérgicas: úlcera o sangrado digestivo, enfermedad renal crónica, insuficiencia cardiaca, cirrosis con ascitis, tercer trimestre del embarazo, anticoagulantes y la combinación de AINE con IECA o ARA II y diurético (riesgo de lesión renal aguda), sobre todo con deshidratación. El antecedente de anafilaxia, síndrome de Stevens-Johnson o necrólisis epidérmica tóxica por un AINE contraindica el grupo hasta una evaluación especializada."
+  },
+  {
+    "code": "FAR-ALE-002",
+    "category": "FARMACOLOGIA_ALERGIAS",
+    "bookSource": "Goodman & Gilman Bases Farmacológicas de la Terapéutica / Harrison Principios de Medicina Interna",
+    "keywords": ["alergia a penicilina", "amoxicilina", "cefalosporinas", "reactividad cruzada", "PEN-FAST", "anafilaxia", "Stevens-Johnson"],
+    "clinicalRule": "Alergia referida a penicilina: caracterizar la reacción; nunca reexponer ante SJS/TEN o DRESS; la reactividad cruzada con cefalosporinas es baja y depende de cadenas laterales.",
+    "content": "Cerca del 10 % de los pacientes refiere alergia a penicilina, pero menos del 10 % de ellos (alrededor del 1 % de la población) tiene una alergia mediada por IgE verdadera; el resto tolera el fármaco tras evaluación. Interrogar tipo, tiempo y gravedad: urticaria, angioedema, anafilaxia o hipotensión en la primera hora indican reacción inmediata; un exantema tardío benigno, sin ampollas ni compromiso sistémico, tiene bajo riesgo. La regla PEN-FAST ayuda a estratificar. Nunca reexponer ante antecedente de síndrome de Stevens-Johnson, necrólisis epidérmica tóxica, DRESS, nefritis intersticial o anemia hemolítica por penicilina. La reactividad cruzada con cefalosporinas es de 1 a 2 % y depende de cadenas laterales similares: amoxicilina y ampicilina las comparten con cefalexina, cefadroxilo y cefaclor, mientras que ceftriaxona y cefazolina tienen cadenas distintas y suelen ser seguras salvo reacción grave. Con carbapenémicos la reactividad es menor de 1 %. El exantema por amoxicilina durante una mononucleosis no equivale a alergia. Documentar la reacción y derivar para prueba cutánea o provocación oral supervisada."
+  },
+  {
+    "code": "FAR-ALE-003",
+    "category": "FARMACOLOGIA_ALERGIAS",
+    "bookSource": "Goodman & Gilman Bases Farmacológicas de la Terapéutica / Harrison Principios de Medicina Interna",
+    "keywords": ["alergia a sulfas", "sulfonamidas", "trimetoprima-sulfametoxazol", "furosemida", "tiazidas", "sulfonilureas", "hiperpotasemia", "G6PD"],
+    "clinicalRule": "Alergia a sulfas: aclarar si fue antibiótico o no antibiótico; la reactividad cruzada entre grupos no está respaldada, salvo antecedente de SJS/TEN o DRESS.",
+    "content": "El término alergia a sulfas es ambiguo. Las sulfonamidas antibacterianas (trimetoprima-sulfametoxazol, sulfadiazina) poseen un grupo arilamina en N4 y un anillo heterocíclico en N1, asociados a hipersensibilidad. Las sulfonamidas no antibióticas (furosemida, tiazidas, sulfonilureas, acetazolamida, celecoxib, sumatriptán) carecen de ellos, y la reactividad cruzada con los antibióticos no está respaldada; el riesgo parece reflejar una predisposición alérgica general. Aun así, ante antecedente de síndrome de Stevens-Johnson, necrólisis epidérmica tóxica o DRESS por cualquier sulfonamida, evitar todo el grupo hasta una evaluación especializada. Aclarar la reacción: exantema, fiebre, citopenias, hepatitis o lesión de mucosas. Las sulfas no se relacionan con sulfitos, sulfatos, contraste yodado ni mariscos. El trimetoprima-sulfametoxazol requiere cross-check por hiperpotasemia con IECA, ARA II o espironolactona, aumento de creatinina, hipoglucemia con sulfonilureas, potenciación de warfarina y déficit de G6PD. En pacientes con dieta baja en carbohidratos y diuréticos, vigilar potasio y sodio al usarlo."
+  }
+]
