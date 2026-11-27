@@ -28,6 +28,7 @@ interface JoinedConsultationRow {
   doctor_notes: string;
   validated_by_doctor: boolean;
   created_at: Date;
+  dias?: number;
 }
 
 interface KnowledgeRow {
@@ -67,6 +68,7 @@ const mapRowToConsultation = (row: JoinedConsultationRow): Consultation => ({
   doctorNotes: row.doctor_notes,
   validatedByDoctor: Boolean(row.validated_by_doctor),
   createdAt: new Date(row.created_at),
+  dias: row.dias != null ? Number(row.dias) : 1,
 });
 
 const SELECT_JOINED_QUERY = `
@@ -90,7 +92,8 @@ const SELECT_JOINED_QUERY = `
     c.symptom_vector,
     c.doctor_notes,
     c.validated_by_doctor,
-    c.created_at
+    c.created_at,
+    c.dias
   FROM consultations c
   INNER JOIN patients p ON c.patient_id = p.id
   INNER JOIN doctors d ON c.doctor_id = d.id
@@ -126,8 +129,9 @@ export const createPostgresConsultationRepository = (pool: Pool): ConsultationRe
         symptom_vector,
         doctor_notes,
         validated_by_doctor,
-        created_at
-      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
+        created_at,
+        dias
+      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15)
       RETURNING id
     `;
 
@@ -146,6 +150,7 @@ export const createPostgresConsultationRepository = (pool: Pool): ConsultationRe
       consultation.doctorNotes,
       consultation.validatedByDoctor,
       consultation.createdAt,
+      consultation.dias ?? 1,
     ]);
 
     const createdId = result.rows[0]?.id;

@@ -3,7 +3,7 @@ import type { SoapGenerationParams } from '../../ports/ClinicalCopilotPort.js';
 export const generateDeterministicSoap = (params: SoapGenerationParams): string => {
   const subjective = [
     `Paciente ${params.patientName} refiere el siguiente motivo de consulta y sintomatología: "${params.symptoms}".`,
-    `Escala subjetiva de dolor EVA reportada: ${params.painLevel}/10.`,
+    `Escala subjetiva de dolor EVA reportada: ${params.painLevel}/10. Días de evolución de los síntomas: ${params.dias ?? 1} días.`,
     `Antecedentes metabólicos basales: ${params.metabolicProfile}. Alergias documentadas: ${params.allergies}.`,
   ].join(' ');
 

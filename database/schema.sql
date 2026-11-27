@@ -35,6 +35,7 @@ CREATE TABLE consultations (
   symptom_vector TEXT NOT NULL,
   doctor_notes TEXT NOT NULL DEFAULT '',
   validated_by_doctor BOOLEAN NOT NULL DEFAULT FALSE,
+  dias INTEGER NOT NULL DEFAULT 1,
   created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 

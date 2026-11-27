@@ -4,6 +4,7 @@ export interface SoapGenerationParams {
   symptoms: string;
   temperature: number;
   painLevel: number;
+  dias?: number;
   triagePriority: string;
   metabolicProfile: string;
   allergies: string;
