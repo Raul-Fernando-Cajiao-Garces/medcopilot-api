@@ -14,6 +14,7 @@ export interface Consultation {
   symptoms: string;
   temperature: number;
   painLevel: number;
+  dias?: number;
   proposedIndications: string;
   triagePriority: TriagePriority;
   metabolicAlerts: string;
@@ -31,6 +32,7 @@ export interface CreateConsultationInput {
   symptoms: string;
   temperature: number;
   painLevel: number;
+  dias?: number;
   proposedIndications?: string;
   doctorNotes?: string;
 }
@@ -72,5 +74,11 @@ export const validateCreateConsultationInput = (input: CreateConsultationInput):
     input.painLevel > 10
   ) {
     throw new DomainError('La escala de dolor EVA debe ser un número entero entre 0 y 10.');
+  }
+
+  if (input.dias !== undefined && input.dias !== null) {
+    if (Number.isNaN(input.dias) || input.dias < 0) {
+      throw new DomainError('Los días de evolución de los síntomas deben ser un número no negativo.');
+    }
   }
 };

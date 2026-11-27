@@ -44,7 +44,7 @@ export const createExternalApiClinicalCopilotAdapter = (
   const buildUserPrompt = (params: SoapGenerationParams): string => {
     return [
       `Paciente: ${params.patientName}. Alergias: ${params.allergies}. Perfil metabólico: ${params.metabolicProfile}.`,
-      `Médico tratante: ${params.doctorName}. Motivo de consulta / Síntomas: ${params.symptoms}.`,
+      `Médico tratante: ${params.doctorName}. Motivo de consulta / Síntomas: ${params.symptoms}. Días de evolución: ${params.dias ?? 1} días.`,
       `Signos vitales: Temp: ${params.temperature}°C. Escala de dolor EVA: ${params.painLevel}/10. Nivel de triaje: ${params.triagePriority}.`,
       `Auditoría metabólica y farmacológica detectada:\n${params.metabolicAlerts}`,
       `Evidencia RAG recuperada de libros médicos de referencia:\n${params.ragContext || 'Sin antecedentes ni evidencia previa requerida.'}`,
