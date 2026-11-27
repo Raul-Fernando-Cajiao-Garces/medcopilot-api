@@ -1,0 +1,334 @@
+{
+  "info": {
+    "_postman_id": "c1f7a228-4e89-4bc2-8924-118827364bfa",
+    "name": "MedCopilot API - Postman Collection v2.1",
+    "description": "Colección completa para pruebas de MedCopilot API (Arquitectura Hexagonal con Node.js, Express y TypeScript)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:3000/api",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "Verificar Estado de la API (GET /health)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["health"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Doctors",
+      "item": [
+        {
+          "name": "Listar Médicos (GET /doctors)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/doctors",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Médico por ID (GET /doctors/:id)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/doctors/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Médico Inexistente - Error 404 (GET /doctors/99999)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/doctors/99999",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors", "99999"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Médico Válido (POST /doctors)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fullName\": \"Dr. Leonardo Paredes Viteri\",\n  \"specialty\": \"Cardiología Clínica\",\n  \"licenseCode\": \"CARD-9901\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/doctors",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Médico con Datos Inválidos - Error 400 (POST /doctors)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"fullName\": \"Dr\",\n  \"specialty\": \"\",\n  \"licenseCode\": \"12\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/doctors",
+              "host": ["{{baseUrl}}"],
+              "path": ["doctors"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Patients",
+      "item": [
+        {
+          "name": "Listar Pacientes (GET /patients)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/patients",
+              "host": ["{{baseUrl}}"],
+              "path": ["patients"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Paciente por ID (GET /patients/:id)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/patients/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["patients", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Paciente Inexistente - Error 404 (GET /patients/99999)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/patients/99999",
+              "host": ["{{baseUrl}}"],
+              "path": ["patients", "99999"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Paciente con Perfil Clínico (POST /patients)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"documentId\": \"1754879136\",\n  \"fullName\": \"Raúl Fernando Cajiao\",\n  \"allergies\": \"Ninguna\",\n  \"metabolicProfile\": \"Protocolo low-carb activo, glucemia normal\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/patients",
+              "host": ["{{baseUrl}}"],
+              "path": ["patients"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Paciente con Documento Inválido - Error 400 (POST /patients)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"documentId\": \"123\",\n  \"fullName\": \"Ra\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/patients",
+              "host": ["{{baseUrl}}"],
+              "path": ["patients"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Consultations",
+      "item": [
+        {
+          "name": "Listar Consultas Médicas con Nombres Relacionados (GET /consultations)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/consultations",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Detalle de Consulta por ID (GET /consultations/:id)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/consultations/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Consulta Inexistente - Error 404 (GET /consultations/99999)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/consultations/99999",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations", "99999"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Consulta con Auditoría y Borrador SOAP (POST /consultations)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"patientId\": 1,\n  \"doctorId\": 1,\n  \"symptoms\": \"Fatiga moderada y cefalea leve tras jornada laboral extenuante.\",\n  \"temperature\": 36.6,\n  \"painLevel\": 2,\n  \"proposedIndications\": \"Hidratación oral y descanso adecuado.\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/consultations",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Crear Consulta con Paciente Inexistente - Error 400 (POST /consultations)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"patientId\": 99999,\n  \"doctorId\": 1,\n  \"symptoms\": \"Síntomas generales sin paciente existente.\",\n  \"temperature\": 36.5,\n  \"painLevel\": 1\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/consultations",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Actualizar Notas y Validar Consulta Médica (PUT /consultations/:id)",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"doctorNotes\": \"El paciente evoluciona de manera favorable. Se ratifican recomendaciones nutricionales.\",\n  \"validatedByDoctor\": true\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/consultations/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations", "1"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eliminar Consulta Médica (DELETE /consultations/:id)",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/consultations/1",
+              "host": ["{{baseUrl}}"],
+              "path": ["consultations", "1"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
